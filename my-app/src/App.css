@@ -4,16 +4,16 @@
 
 body {
     margin: 0;
-    background-color: whitesmoke;
+    background-image: url("https://wallpaperaccess.com/full/148421.jpg")
 }
 
 header {
     height: 100px;
     display: flex;
     align-items: center;
-    background: #6441A5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #c71e08;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c71e08, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c71e08, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 header > img {
@@ -35,7 +35,10 @@ header > p {
 }
 
 .meme > img {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
 .meme > h2 {
@@ -89,7 +92,7 @@ header > p {
     font-size: 25px;
     letter-spacing: 1.5px;
     color: white;
-    background: #6441A5;
+    background: linear-gradient(to right, #c71e08, #6441A5); ;
 }
 
 .meme-form > input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
